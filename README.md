@@ -10,6 +10,8 @@
 
 4 - Formula
 
+5 - creation background
+
 
 - Algorithm Description
 
@@ -35,6 +37,12 @@ Thus, allowed values ​​for mass are: "0<m<50", and allowed values ​​for 
 Vfa = [(ma - mb)*via + 2 * mb * vib]/(ma + mb)
 Vfa = [2 * ma * via (ma - mb) * vib]/(ma + mb)
 
+
+- Creation Background
+
+As you can see, this algorithm has some shortcomings. I'm an amateur developer and I'm still getting to know this vast world of programming! My interest in this project came when I thought of making some minimally complex algorithm using my basic knowledge and physics, so this is a love project!
+
+#That's all!
 
 
 
