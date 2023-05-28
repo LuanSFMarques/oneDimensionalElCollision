@@ -41,8 +41,8 @@ def print_ab_animation(va, ma, vb, mb, vel_a_final, vel_b_final):
         if a_position <= b_position:
             printz = True
 
-            speedin = f"| Initial speed A: {va}. Initial speed B: -{vb}."
-            speedfi = f"| Final speed A:   {vel_a_final}. Final speed B:   {vel_b_final}."
+            speedin = f"| Initial Vel A: {va}. Initial Vel B: -{vb}."
+            speedfi = f"| Final Vel A:   {vel_a_final}. Final Vel B:   {vel_b_final}."
             mass = f"| Mass A: {ma}   Mass B: {mb}."
             speedin_space = " "*((line_length-len(speedin))-1) + "|"
             speedfi_space = " "*((line_length-len(speedfi))-1) + "|"
@@ -115,7 +115,7 @@ while va <= 0 or va >= 16:
     print("+--------------------------------------------------------------------------------------------------+")
     print("|                               1-D Elastic Collision Calculator                                   |")
     print("|                                                                                                  |")
-    print("|   A Speed: {:<8} | A Mass: {:<8} | B Speed: {:<8} | B Mass: {:<8}                    |".format(va, ma, vb, mb))
+    print("|   A Velocity: {:<8} | A Mass: {:<8} | B Speed: {:<8} | B Mass: {:<8}                 |".format(va, ma, vb, mb))
     print("|                                                                                                  |")
     print("|                                                                                                  |")
     print("+--------------------------------------------------------------------------------------------------+")
@@ -126,7 +126,7 @@ while ma <= 0 or ma >= 51:
     print("+--------------------------------------------------------------------------------------------------+")
     print("|                               1-D Elastic Collision Calculator                                   |")
     print("|                                                                                                  |")
-    print("|   A Speed: {:<8} | A Mass: {:<8} | B Speed: {:<8} | B Mass: {:<8}                    |".format(va, ma, vb, mb))
+    print("|   A Velocity: {:<8} | A Mass: {:<8} | B Speed: {:<8} | B Mass: {:<8}                 |".format(va, ma, vb, mb))
     print("|                                                                                                  |")
     print("|                                                                                                  |")
     print("+--------------------------------------------------------------------------------------------------+")
@@ -137,7 +137,7 @@ while vb <= 0 or vb >= 16:
     print("+--------------------------------------------------------------------------------------------------+")
     print("|                               1-D Elastic Collision Calculator                                   |")
     print("|                                                                                                  |")
-    print("|   A Speed: {:<8} | A Mass: {:<8} | B Speed: {:<8} | B Mass: {:<8}                    |".format(va, ma, vb, mb))
+    print("|   A Velocity: {:<8} | A Mass: {:<8} | B Speed: {:<8} | B Mass: {:<8}                 |".format(va, ma, vb, mb))
     print("|                                                                                                  |")
     print("|                                                                                                  |")
     print("+--------------------------------------------------------------------------------------------------+")
@@ -148,7 +148,7 @@ while mb <= 0 or mb >= 51:
     print("+--------------------------------------------------------------------------------------------------+")
     print("|                               1-D Elastic Collision Calculator                                   |")
     print("|                                                                                                  |")
-    print("|   A Speed: {:<8} | A Mass: {:<8} | B Speed: {:<8} | B Mass: {:<8}                    |".format(va, ma, vb, mb))
+    print("|   A Velocity: {:<8} | A Mass: {:<8} | B Speed: {:<8} | B Mass: {:<8}                 |".format(va, ma, vb, mb))
     print("|                                                                                                  |")
     print("|                                                                                                  |")
     print("+--------------------------------------------------------------------------------------------------+")

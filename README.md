@@ -23,7 +23,7 @@ In a collision characterized as elastic, the combined kinetic energy of the two 
 
 - Variables
 
-The variables used for the calculation are: Initial speed of object A, Mass of object A, Initial speed of object B and Mass of object B. The algorithm uses these values ​​to calculate the final velocities of each object (after they collide with each other)
+The variables used for the calculation are: Initial Velocity of object A, Mass of object A, Initial Velocity of object B and Mass of object B. The algorithm uses these values ​​to calculate the final velocities of each object (after they collide with each other)
 
 
 
