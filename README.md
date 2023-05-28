@@ -30,7 +30,7 @@ The velocity entered for object A will always be positive and the velocity enter
 Thus, allowed values ​​for mass are: "0<m<50", and allowed values ​​for velocity are: "0<v<16".
 
 
--FORMULA
+- FORMULA
 
 Vfa = [(ma - mb)*via + 2 * mb * vib]/(ma + mb)
 Vfa = [2 * ma * via (ma - mb) * vib]/(ma + mb)
