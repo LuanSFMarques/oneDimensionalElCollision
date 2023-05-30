@@ -25,6 +25,7 @@ def print_ab_animation(va, ma, vb, mb, vel_a_final, vel_b_final):
     b_position = line_length
     reverse = False
     timez = 0
+    i = 0
     
     stopa = False
     stopb = False
@@ -79,6 +80,9 @@ def print_ab_animation(va, ma, vb, mb, vel_a_final, vel_b_final):
                 b_position = (line_length-1)
                 stopb = True
             elif stopb == False:
+                if vel_b_final == 0 and i == 0:
+                    b_position += 1
+                    i = 1
                 b_position += vel_b_final
                 if b_position >= line_length:
                     b_position = line_length-1
